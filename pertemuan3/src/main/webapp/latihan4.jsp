@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>call Java Class</title>
 </head>
 <body>
 	Ubah frasa "Hello World" menjadi huruf kecil = <%= FunUtils.buatKecil("Hello World") %>

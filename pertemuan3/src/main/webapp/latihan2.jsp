@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>scriplet</title>
 </head>
 <body>
 	<h3>JSP Scriplet</h3>

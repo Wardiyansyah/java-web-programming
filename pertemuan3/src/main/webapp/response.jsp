@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>forms</title>
 </head>
 <body>
 	Siswa terkonfirmasi dengan:<br>
