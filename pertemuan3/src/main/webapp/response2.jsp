@@ -16,15 +16,14 @@
 		String programming = request.getParameter("programming");
 		
 		// Menampilkan hasil input
-		if(name != null && address != null && country != null && programming != null){
-			out.println("<p>Nama: " + name + "</p>");
-			out.println("<p>Alamat: " + address + "</p>");
-			out.println("<p>Asal Negara: " + country + "</p>");
-			out.println("<p>Pemrograman yang Dikuasai: " + programming + "</p>");
-		} else {
-			out.println("<p>Data tidak lengkap</p>");
-		}
-	%><br>
+		if(name != null && address != null && country != null && programming != null){ %>
+    		<p>Nama: <%= name %></p>
+			<p>Alamat: <%= address %></p>
+			<p>Asal Negara: <%= country %></p>
+			<p>Pemrograman yang Dikuasai: <%= programming %></p>
+	<% } else { %>
+			<p>Data tidak lengkap</p>
+	<% } %><br>
 	<a href="latihan8.jsp">Kembali ke Form</a>
 </body>
 </html>
