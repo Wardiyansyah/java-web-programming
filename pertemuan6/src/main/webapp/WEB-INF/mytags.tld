@@ -58,4 +58,19 @@ version="2.1">
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 	</tag>
+	<tag>
+		<name>upperCase</name>
+		<tag-class>mytags.UpperCaseTag</tag-class>
+		<body-content>JSP</body-content>
+	</tag>
+	<tag>
+		<name>repeatBody</name>
+		<tag-class>mytags.RepeatBodyTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<name>times</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
 </taglib>
